@@ -10,7 +10,7 @@ body {
     padding: 0;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h3, h4, h5, h6 {
     margin: 0;
     padding: 0;
 }
@@ -33,6 +33,16 @@ a:hover {
     width: 100vw;
     height: 100vh;
     gap: 20px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    gap: 10px;
+}
+
+.grid-container img {
+    width: 100%;
 }
 
 /* 00 SIDE ---------- */
